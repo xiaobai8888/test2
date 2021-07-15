@@ -16,9 +16,13 @@
    [Markdown](https://guides.github.com/features/mastering-markdown/)
 * 添加图片
    ![图片链接](http://www.baidu.com/img/bdlogo.gif "百度logo")
-* 缩进
+* 缩进/引用
 >hello
 >>>>你好
+* 换行  
+直接回车不能换行，  
+可以在上一行文本后面补两个空格，  
+这样下一行的文本就换行了。
 * 插入代码
 ```
 <script>
@@ -34,5 +38,16 @@
         console.log(son.x);
     </script>
 ```
-* 文字高亮
+* 文字高亮  
 ``Vue.js是一套构建用户界面的渐进式框架``
+* 任务列表
+- [x] 吃饭
+- [x] 睡觉
+- [x] 打豆豆
+ 
+ * 表格
+
+表头  | 表头  | 表头
+ ---- | ----- | ------  
+ 单元格内容  | 单元格内容 | 单元格内容 
+ 单元格内容  | 单元格内容 | 单元格内容  
